@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulaire Coin des saveurs </title>
+</head>
+
+<body>
+    <form action="" method=""POST">
+        <p>
+            <label>Nom:
+                <input type="text" name=""name" required>
+            </label>
+        </p>
+
+        <fieldset>
+            <legend> Choix de plat</legend>
+            <p>
+                <label>
+                    <input type="radio" name="main"
+                    value="c001" chacked>
+                    Riz au pois et legumes
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="main"
+                    value="c002" chacked>
+                    Poisson gros sel
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="main"
+                    value="c003" chacked>
+                    Griots de tofu vegan à l'haitienne
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="main"
+                    value="c004" chacked>
+                    Macaroni au grati Haitien
+                </label>
+            </p>
+        
+        </fieldset>
+
+        <fieldset>
+            <p>
+            <legend> Suivi </legend>
+
+            <label> Pomme de terre frites
+                <input type="checkbox" name="side"
+                value="s001">
+            </label>
+
+            <label> Bananes Frites
+                <input type="checkbox" name="side"
+                value="s002">
+            </label>
+
+            <label> Salade
+                <input type="checkbox" name="side"
+                value="s001">
+            </label>
+
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend> Boisson </legend>
+            <p>
+                <label>
+                    <input type="radio" name="plat"
+                    value="p001" checked>
+                    Gaseuse
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="plat"
+                    value="p002" checked>
+                    Cerise
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="plat"
+                    value="p003" checked>
+                    Citron
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="plat"
+                    value="p004" checked>
+                    Melon
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="plat"
+                    value="p005" checked>
+                    Grenadia
+                </label>
+            </p>
+
+        </fieldset>
+
+        <p>
+        <label> Observation
+            <textarea name="note" cols="30"
+            rows="10"></textarea>
+        </label>
+        </p>
+
+        <label> Methode de paiement
+            <select name="payment">
+                <option value="cash"> Cash</option>
+                <option value="credit"> Credit card </option>
+                <option value="debit"> debit card </option>
+            </select>
+        </label>
+
+        <p>
+            <button type="reset"> Recommencer la demande</button>
+            <button type="submit"> Faire la demande</button>
+        </p>
+
+        </form>
+    
+
+</body>
+</html>
